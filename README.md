@@ -3,7 +3,11 @@ Freeloader
 
 Freeloader is a simple web application (flask) that allows researchers 
 to take advantage of HPC best practices to offer a compute pipeline
-to collaborators. Design goals are:
+to collaborators. An external collaborator uploads a data file through
+a web form. The data file is then processed on an HPC cluster using 
+recommended HPC and storage access methods.
+
+Design goals are:
 
  - ensure that only compute resources are used that are otherwise idle
  - ensure that the lowest cost storage is used to accompish the job 
